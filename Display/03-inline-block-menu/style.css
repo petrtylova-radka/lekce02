@@ -25,3 +25,25 @@ h1, h2, h3 {
  tmavsi     #95a5a6
  tmava      #34495e
 */
+
+.menu {
+    padding: 0;
+    text-align: center;
+    background-color: #928490;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #433E49;
+    background-color: #DBC1AD;
+    display: inline-block;
+    padding: 30px;
+}
+
+.menu a:hover {
+    background-color: #F3E8EB;
+}

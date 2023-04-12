@@ -39,11 +39,16 @@ h1, h2, h3 {
     border: 1px dashed red;
 }
 
+a {
+    display: block; /*z řádkového prvku jsme udělali blokový a lze mu nastavovat vlastnosti*/
+}
+
 
 .odstavec {
     margin: 1px 0;
     color: white;
     border: 1px solid black;
+    /*display: inline-block; /*hybidní prvek*/ */
 }
 
 .prvni {
@@ -52,10 +57,13 @@ h1, h2, h3 {
 
 .druhy {
     background-color: #f1c40f;
+    visibility: hidden; /*prvek je schovaný, ale zabírá místo*/
+    /* display: none; /*schová prvek a opravdu není ani prázdné místo*/ */
 }
 
 .treti {
     background-color: #e74c3c;
+    opacity: 0.5; /*průhlednost*/
 }
 
 
